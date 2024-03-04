@@ -24,7 +24,7 @@
 10	Treff	10
 10	Treff	J
 10	Treff	D
-10	Treff	Sze
+10	Treff	K
 11	Treff	A
 1	Kór	1
 2	Kór	2
@@ -38,7 +38,7 @@
 10	Kór	10
 10	Kór	J
 10	Kór	D
-10	Kór	Cs
+10	Kór	K
 11	Kór	A
 1	Káró	1
 2	Káró	2
@@ -52,5 +52,5 @@
 10	Káró	10
 10	Káró	J
 10	Káró	D
-10	Káró	P
+10	Káró	K
 11	Káró	A
