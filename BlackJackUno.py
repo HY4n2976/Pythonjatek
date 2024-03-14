@@ -11,3 +11,10 @@ for sor in file:
 print("Osszes kartyak",len(pakli))
 for i in range(len(pakli)):
     print(pakli[i].Value, pakli[i].Color, pakli[i].Name)
+
+random = random.randint(0, len(pakli)-1)
+
+for i in range(len(pakli)):
+
+
+print("A kártyái" ,random)

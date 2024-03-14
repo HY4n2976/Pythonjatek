@@ -7,3 +7,4 @@ class FeketeJani:
 
     def Kartyak(self):
         print("Az on kartyai:", )
+
