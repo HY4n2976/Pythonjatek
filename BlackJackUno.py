@@ -12,14 +12,21 @@ for sor in file:
 #for i in range(len(pakli)):
     #print(pakli[i].Value, pakli[i].Color, pakli[i].Name)
 
+sajat = 0
+dealer = 0
+
 print("Az on kartyai:")
 for i in range(2):
     vlami = random.randint(0, len(pakli) - 1)
     print(pakli[vlami].Value, pakli[vlami].Color, pakli[vlami].Name)
     pakli.pop(vlami)
+    sajat += pakli[vlami].Value
 
 print("A dealer kartyai:")
 for i in range(2):
     vlami = random.randint(0, len(pakli) - 1)
     print(pakli[vlami].Value, pakli[vlami].Color, pakli[vlami].Name)
     pakli.pop(vlami)
+    dealer += pakli[vlami].Value
+
+print(dealer, sajat)
