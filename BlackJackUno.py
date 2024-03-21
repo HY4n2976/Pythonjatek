@@ -19,14 +19,16 @@ print("Az on kartyai:")
 for i in range(2):
     vlami = random.randint(0, len(pakli) - 1)
     print(pakli[vlami].Value, pakli[vlami].Color, pakli[vlami].Name)
-    pakli.pop(vlami)
     sajat += pakli[vlami].Value
+    pakli.pop(vlami)
+
+print("Az on kartyainak erteke:",sajat)
 
 print("A dealer kartyai:")
 for i in range(2):
-    vlami = random.randint(0, len(pakli) - 1)
-    print(pakli[vlami].Value, pakli[vlami].Color, pakli[vlami].Name)
-    pakli.pop(vlami)
-    dealer += pakli[vlami].Value
+    masik = random.randint(0, len(pakli) - 1)
+    print(pakli[masik].Value, pakli[masik].Color, pakli[masik].Name)
+    dealer += pakli[masik].Value
+    pakli.pop(masik)
 
-print(dealer, sajat)
+print("A dealer kartyainak erteke:",dealer)
